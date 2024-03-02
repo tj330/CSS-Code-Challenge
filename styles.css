@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    height:100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(8, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+
+
+.signup {
+    border: solid white 2px;
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 1000px;
+}
+
+.login {
+    background-color: red;
+    border: transparent;
+}
+
+.box {
+    width: 50px;
+    color: white;
+    font-size: 60px;
+    justify-self: flex-start;
+}
+.hero img {
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+}
+
+.heading {
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -350px;
+}
+
+.para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 51.5px;
+}
+
+.contents {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height:max-content;
+    width: 100%;
+    margin-top: 122px;
+    background-color: rgb(152, 183, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row1 img{
+    width: 500px;
+    height: 800px;
+}
+
+.row2 img{
+    width: 500px;
+    height: 800px;
+}
+
+.row3 img{
+    width: 500px;
+    height: 800px;
+}
+
+.row4 img{
+    width: 100%;
+    height: 800px;
+}
+
+.row5 img{
+    width: 100%;
+    height: 800px;
+}
+
+.footer {
+    height: 400px;
+    width: 100%;
+    color:white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
