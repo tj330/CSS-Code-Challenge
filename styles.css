@@ -28,8 +28,7 @@ button {
     border: solid white 2px;
     color: white;
     background-color: black;
-    margin-right: 10px;
-    margin-left: 1000px;
+    margin-left: 50px;
 }
 
 .login {
@@ -119,4 +118,36 @@ a {
     display: flex;
     align-items: center;
     padding: 20px;
+}
+
+@media (max-width: 650px) {
+    body{
+        width:fit-content;
+    }
+
+    .heading {
+        font-size:70px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .sign-up {
+        width: 300px;
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+    .para {
+        font-size: 20px;
+    }
+
+    .contents {
+        margin-top: 130px;
+    }
+
+    .size {
+        width:fit-content;
+    }
 }
